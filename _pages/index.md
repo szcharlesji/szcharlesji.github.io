@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: default
+layout: splash
 title: "About"
 ---
 
