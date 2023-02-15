@@ -1,5 +1,5 @@
 ---
-# permalink: /about/
+permalink: /
 layout: default
 title: "About"
 ---
