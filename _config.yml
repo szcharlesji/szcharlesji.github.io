@@ -1,52 +1,65 @@
-# Site settings
-title: Cheng Ji
-description: CS&Linguistics Undergraduate at NYU
+title:            Cheng Ji's website
+description:      Welcome to my website.
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              //szcharlesji.github.io
+#http://localhost:5000
+# disqus_shortname: 
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-permalink: /  # set the about page as the root
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Owner/author information
+owner:
+  name:           Cheng Ji (計呈)
+  avatar:         cheng.jpg
+  bio:            linguistics and cs student at NYU
+  email:          cheng.ji at nyu.edu
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  # twitter: 
+  # linkedin: 
+  # cv: 
+  # google_scholar: 
+  github: szcharlesji
+# Analytics and webmaster tools stuff goes here
+  # google_analytics: 
+# google_verify:
+# bing_verify:
 
-# Author information
-author:
-  name: Cheng Ji
-  bio: CS&Linguistics Undergraduate at NYU
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/szcharlesji"
+# Links to include in top navigation
+# For external links add external: true
+links:
+  # - title: Resume
+  #   url: 
+  #   external: true
+  # - title: Publications
+  #   url: /publications/
+  #- title: Code
+  #  url: /code/
+  #- title: Blog
+  #  url: /blog/
 
-# Footer links
-footer:
-  links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/szcharlesji"
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+#pygments:    true
+highlighter: rouge
+markdown:    kramdown
+kramdown:
+  extensions: ["strikethrough"]
+  
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
 
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       author_profile: false
-#       read_time: false
-#       comments: false
-#       share: false
-#       related: false
-#   # _pages
-#   - scope:
-#       path: "_pages"
-#       type: pages
-#     values:
-#       layout: single
-#       author_profile: false
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# category_archive:
-#   type: liquid
-#   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/
+syntax_highlighter_opts:
+  line_numbers:
+  line_numbers_start: 1
+  tab_width: 4
+  bold_every: 10
+  css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
