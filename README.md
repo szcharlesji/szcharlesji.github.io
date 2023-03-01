@@ -1,2 +1,2 @@
 # My Personal website
-[szcharlesji.github.io](szcharlesji.github.io)
+[szcharlesji.github.io](https://szcharlesji.github.io)
