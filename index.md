@@ -13,11 +13,6 @@ Welcome to my website! I am a undergraduate at NYU majoring in Computer Science 
 </p>
 
 <p>
-I'm currently working on an on-chain gamification system for engagement between fans and content creators. 
-</p>
-
-
-<p>
 Other Interests include analog photography, cooking, and reading.
 </p>
 
