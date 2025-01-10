@@ -1,9 +1,6 @@
 ---
 layout: home2
 title: About
-description: "Charles Ji's website"
-tags: [Jekyll, theme, responsive, blog, template]
-image:
 ---
 
 <p>
