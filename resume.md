@@ -1,10 +1,6 @@
 ---
 layout: resume
-title:
----
-
-# Experience
-
+title: Experience
 ---
 
 ## Refract Labs
