@@ -22,7 +22,7 @@ owner:
 # For external links add external: true
 links:
   - title: Resume
-    url: /cv/
+    url: /resume/
   #   external: true
   # - title: Publications
   #   url: /publications/
