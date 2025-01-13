@@ -90,15 +90,16 @@ Technologies: React.js, Node.js, MongoDB, Express, GitHub Actions
 
 Technologies: PyTorch, RNN, HMM, Python, Docker
 
-[Project Link](https://github.com/UsaidMalik/Diacritize) | [Paper Link](/images/Diacritize.pdf)
+[Link to Project](https://github.com/UsaidMalik/Diacritize)
+[Link to Paper](/images/Diacritize.pdf)
 
 ---
 
 # NLP Projects
 
-- Part-of-Speech Tagging System with Viterbi Algorithm achieving **92.4% accuracy** on WSJ Test set
-- Noun Groups Sequence Labeling with MaxEnt Bio Tagger achieving **96.96% accuracy** on WSJ Test set
-- Information Retrieval System with TF-IDF on cranfield dataset achieving MAP score of **0.38** (score: **10/11**)
+- [**Part-of-Speech Tagging System**](https://github.com/szcharlesji/viterbi-pos-tagger) with Viterbi Algorithm achieving **92.4% accuracy** on WSJ Test set
+- [**Noun Groups Sequence Labeling**](https://github.com/szcharlesji/maxent-bio-tagger) with MaxEnt Bio Tagger achieving **96.96% accuracy** on WSJ Test set
+- [**Information Retrieval System**](https://github.com/szcharlesji/cranfield-tfidf) with TF-IDF on cranfield dataset achieving MAP score of **0.38** (score: **10/11**)
 
 ---
 
