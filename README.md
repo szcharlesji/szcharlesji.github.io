@@ -1,4 +1,4 @@
-# Charles Cheng Ji - Personal Website
+# Charles Ji - Personal Website
 
 A minimal, modern Jekyll website using the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
 
@@ -40,14 +40,19 @@ bundle install
 ### 3. Run Locally
 
 ```bash
-# Start Jekyll server
-bundle exec jekyll serve
+# Start Jekyll server (minimal output)
+bundle exec jekyll serve --quiet
 
 # Or with live reload
 bundle exec jekyll serve --livereload
 
+# Verbose mode (shows all Sass warnings from theme)
+bundle exec jekyll serve
+
 # Site will be available at http://localhost:4000
 ```
+
+**About Sass warnings**: The theme uses some deprecated Sass syntax. These warnings are harmless and will be fixed in future theme releases. Use `--quiet` flag for minimal output, or just ignore the warnings - your site works perfectly either way!
 
 ## Project Structure
 

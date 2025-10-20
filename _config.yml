@@ -1,5 +1,5 @@
 # Site Settings
-title: "Charles Cheng Ji"
+title: "Charles Ji"
 description: "Personal website"
 url: "https://charlesji.com"
 baseurl: ""
@@ -11,8 +11,8 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Author
 author:
-  name: "Charles Cheng Ji"
-  avatar: "/assets/images/cheng.jpeg"
+  name: "Charles Ji"
+  avatar: "/assets/images/me.jpeg"
   bio: "Founding Engineer at Refract Labs"
   location: "New York"
   email: "me@charlesji.com"
@@ -33,6 +33,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/chji"
+
+# Site Navigation
+masthead_title: "Charles Ji"
 
 # Reading Files
 include:
@@ -76,6 +79,12 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+  quiet_deps: true
+
 # Markdown Processing
 kramdown:
   input: GFM
@@ -89,13 +98,12 @@ kramdown:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 5 # disabled - uncomment when you have blog posts
+# paginate_path: /page:num/
 timezone: America/New_York
 
 # Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
