@@ -79,13 +79,29 @@ Main configuration is in `_config.yml`. Key settings:
 
 ## Customization
 
-### Change Theme Skin
+### Automatic Dark Mode
 
-Edit `_config.yml`:
+The site automatically switches between light and dark themes based on the user's browser/system preference:
+
+- **Light mode**: Default white theme (when browser is in light mode)
+- **Dark mode**: Automatic dark theme (when browser is in dark mode)
+
+This uses the CSS `prefers-color-scheme` media query to respect user preferences.
+
+**To test it:**
+- **macOS**: System Settings → Appearance → Dark/Light
+- **Windows**: Settings → Personalization → Colors → Choose your mode
+- **Browser DevTools**: Most browsers let you toggle this in DevTools
+
+### Manual Theme Override
+
+If you prefer a fixed theme instead of auto-switching, edit `_config.yml`:
 
 ```yaml
-minimal_mistakes_skin: "default" # or "air", "aqua", "contrast", "dark", "mint", "neon", "plum", "sunrise"
+minimal_mistakes_skin: "default" # or "dark", "air", "aqua", "contrast", "mint", "neon", "plum", "sunrise"
 ```
+
+Then remove the `@media (prefers-color-scheme: dark)` section from `assets/css/main.scss`.
 
 ### Update Author Info
 

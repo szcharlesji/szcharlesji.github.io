@@ -1,0 +1,8 @@
+---
+# Dark mode styles
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin_dark | default: 'dark' }}"; // dark skin
+@import "minimal-mistakes"; // main partials
