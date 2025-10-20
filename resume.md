@@ -1,6 +1,7 @@
 ---
-layout: resume
+layout: single
 title: Experience
+permalink: /resume/
 ---
 
 ## Refract Labs

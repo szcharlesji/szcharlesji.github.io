@@ -1,6 +1,25 @@
-_site
-.sass-cache
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+
+# Ruby
+*.gem
+.bundle/
+vendor/
 Gemfile.lock
+
+# macOS
 .DS_Store
-.gem
+.AppleDouble
+.LSOverride
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

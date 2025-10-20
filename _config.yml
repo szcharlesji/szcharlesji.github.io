@@ -1,60 +1,138 @@
-title:            Home
-description:      Welcome to my website.
-# Your site's domain goes here. Leave localhost server or blank when working locally.
+# Site Settings
+title: "Charles Cheng Ji"
+description: "Personal website"
 url: "https://charlesji.com"
 baseurl: ""
-# url: http://localhost:5000
-# disqus_shortname: 
+repository: "szcharlesji/szcharlesji.github.io"
 
-# Owner/author information
-owner:
-  name:           Charles Cheng Ji
-  avatar:         cheng.jpeg
-  email:          me@charlesji.com
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  # twitter: chengcharlesji
-  linkedin: chji
-  # cv: 
-  # google_scholar: 
-  github: szcharlesji
+# Theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Resume
-    url: /resume/
-  #   external: true
-  # - title: Publications
-  #   url: /publications/
-  #- title: Code
-  #  url: /code/
-  #- title: Blog
-  #  url: /blog/
+# Site Author
+author:
+  name: "Charles Cheng Ji"
+  avatar: "/assets/images/cheng.jpeg"
+  bio: "Founding Engineer at Refract Labs"
+  location: "New York"
+  email: "me@charlesji.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/szcharlesji"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/chji"
 
-timezone:    America/New_York
-future:      true
-#pygments:    true
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/szcharlesji"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/chji"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
 highlighter: rouge
-markdown:    kramdown
-kramdown:
-  extensions: ["strikethrough"]
-  
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
+# Markdown Processing
 kramdown:
+  input: GFM
+  hard_wrap: false
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-syntax_highlighter_opts:
-  line_numbers:
-  line_numbers_start: 1
-  tab_width: 4
-  bold_every: 10
-  css: class
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/New_York
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
