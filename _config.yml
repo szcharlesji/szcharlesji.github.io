@@ -6,7 +6,8 @@ baseurl: ""
 repository: "szcharlesji/szcharlesji.github.io"
 
 # Theme
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll  # Used for local development
+remote_theme: mmistakes/minimal-mistakes@4.27.3  # Used for GitHub Pages
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin_dark: "dark" # Dark mode skin when user prefers dark color scheme
 
@@ -105,6 +106,7 @@ timezone: America/New_York
 
 # Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
