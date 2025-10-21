@@ -15,14 +15,5 @@ Gemfile.lock
 .AppleDouble
 .LSOverride
 
-# Editor
-*.swp
-*.swo
-*~
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
 .claude
 CLAUDE.MD
