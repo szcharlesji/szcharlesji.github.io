@@ -79,7 +79,6 @@ permalink: /resume/
 
 - Co-Led team of 4 engineers, delivering MVP 2 weeks ahead of deadline
 - Architected scalable MERN stack application with interactive Google Maps
-- Implemented automated CI/CD pipeline reducing deployment time from hours to minutes
 - Established comprehensive testing framework achieving >95% code coverage
 
 **Tech Stack**: React.js, Node.js, MongoDB, Express, GitHub Actions
@@ -89,11 +88,10 @@ permalink: /resume/
 [Link to Project](https://github.com/UsaidMalik/Diacritize) | [Link to Paper](/images/Diacritize.pdf)
 
 - Designed and implemented three distinct approaches for Arabic text vocalization: Viterbi N-gram, RNN, and Transformer models
-- Built comprehensive data pipeline processing extensive Quranic texts
 - Engineered custom evaluation framework to enable cross-architecture performance comparison
 - Achieved diacritic error rates between 3.5-7% across different architectures
 
-**Tech Stack**: PyTorch, RNN, HMM, Python, Docker
+**Tech Stack**: PyTorch, RNN, HMM, Python
 
 ---
 
