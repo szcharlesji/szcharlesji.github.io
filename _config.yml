@@ -6,8 +6,10 @@ baseurl: ""
 repository: "szcharlesji/szcharlesji.github.io"
 
 # Theme
-theme: minimal-mistakes-jekyll # Used for local development
-# remote_theme: mmistakes/minimal-mistakes@4.27.3 # Used for GitHub Pages
+# For local development: use gem-based theme (faster, no internet needed)
+# For GitHub Pages: use remote_theme (automatically used when deployed)
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.27.3
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin_dark: "dark" # Dark mode skin when user prefers dark color scheme
 
@@ -106,7 +108,7 @@ timezone: America/New_York
 
 # Plugins
 plugins:
-  # - jekyll-remote-theme  # Only needed for GitHub Pages deployment
+  # - jekyll-remote-theme  # Only needed for GitHub Pages (automatically enabled there)
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
