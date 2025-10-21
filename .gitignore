@@ -24,4 +24,5 @@ Gemfile.lock
 *.sublime-project
 *.sublime-workspace
 
+.claude
 CLAUDE.MD
