@@ -23,3 +23,5 @@ Gemfile.lock
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+CLAUDE.MD
